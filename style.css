@@ -207,16 +207,4 @@ html {
     font-weight: bold; 
 
 }
-.container {
-  display: flex;
-}
-
-@media screen and (max-width: 600px) {
-.kolom-grup {
- 
-    flex-direction: column;
-}
-.content-img {
-    font-size: 0.9rem;
-  }
 
