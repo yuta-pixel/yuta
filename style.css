@@ -1,0 +1,208 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl,dt,dd, ol,ul,li,
+fieldset,form,label,legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size:100%;
+    font: inherit;
+    vertical-align: baseline;
+
+}
+
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+
+
+}
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style:none;
+}
+
+body {
+    line-height: 1;
+
+}
+
+ol, ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font:16px/28px Verdana, sans-serif;
+    background-color: burlywood;
+    color: black;
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #FFE4D0;
+}
+
+.header {
+    padding: 25px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+    color: chocolate;
+}
+
+.header nav {
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.navbar {
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+    padding: 15px 0;
+}
+
+.content-section {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+.header a {
+    text-decoration: none;
+    color: purple;
+    padding: 5px;
+}
+.header a:hover {
+    background-color: #FFE4D0;
+    color: coral;
+}
+
+.Road {
+    height: 450px;
+    background-image: url(img/Road.jpg);
+    background-size: cover;
+    background-position: 0 x180px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}  
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+.content .penulis a p {
+    color: blue;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.foto-product {
+    text-align: center;
+    margin: 20px;
+}
+
+.foto-product img {
+    width: 30%;
+    height: auto;
+    display: inline-block;
+    margin-right: 1%;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin: 5px; 
+}
+
+.foto-product img:last-child {
+    margin-right: 0;
+}
+
+.contact-section {
+    margin-top: 40px;
+    line-height: 1.6;
+}
+
+.contact-section h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content-p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+.contact-list {
+    margin-top: 15px;
+}
+
+.contact-item {
+    margin: 5px 0;
+}
+
+.contact-item .icon {
+    margin-right: 8px; 
+    font-size: 1.1em;
+}
+
+.contact-item .label {
+    font-weight: bold; 
+}
