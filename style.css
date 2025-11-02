@@ -206,5 +206,27 @@ html {
 .contact-item .label {
     font-weight: bold; 
 }
+@media screen and (max-width: 600px) {
+  
+
+  body {
+    padding: 10px;
+  }
+
+  .main-nav {
+    
+    display: none;
+  }
+
+  h1 {
+    font-size: 24px; 
+  }
+
+  .kolom {
+    
+    width: 100%;
+    float: none;
+  }
+
 
 
