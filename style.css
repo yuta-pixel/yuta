@@ -205,4 +205,17 @@ html {
 
 .contact-item .label {
     font-weight: bold; 
+
 }
+.kolom-grup {
+  display: flex;
+}
+
+@media screen and (max-width: 600px) {
+.kolom-grup {
+ 
+    flex-direction: column;
+}
+.konten-gambar {
+    font-size: 0.9rem;
+  }
